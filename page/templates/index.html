@@ -1,0 +1,356 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpack</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'main.css' %}" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <main class="page">
+
+            <div class="preview">
+                <div class="preview__content _container">
+                    <div class="preview__row">
+                        <div class="preview__img"><img src="{% static 'img01.jpg' %}" alt="Картинка"></div>
+                        <div class="preview__block">
+                            <div class="preview__title">ПРОВОД ДЕКОРАТИВНЫЙ</div>
+                            <div class="preview__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident totam distinctio quibusdam molestias ipsa delectus eum dignissimos. Nisi totam culpa, harum deserunt laboriosam est consequuntur corrupti? Doloribus architecto, voluptates perferendis ipsa similique officiis. Molestias recusandae aspernatur neque. Cupiditate rerum commodi numquam nesciunt deleniti impedit sapiente expedita, doloremque quisquam eaque mollitia repellat rem voluptas inventore. Qui officia est nisi ipsa accusantium aut laudantium numquam labore in vitae. Doloremque sunt eaque blanditiis molestiae voluptate quasi maxime odio ut commodi similique, provident, nulla consectetur numquam libero voluptates adipisci tempore tempora inventore eum nostrum cupiditate recusandae. Impedit dolorum placeat quaerat? Quo voluptatibus quos ea.</div>
+                            <div class="preview__colors colors-preview">
+                                <div class="colors-preview__title">Сертификаты соответствия</div>
+                                <div class="colors-preview__row">
+                                    <div class="colors-preview__item">
+                                        <div class="colors-preview__img"><img src="{% static 'img01.jpg' %}" alt=""></div>
+                                    </div>
+                                    <div class="colors-preview__item">
+                                        <div class="colors-preview__img"><img src="{% static 'img01.jpg' %}" alt=""></div>
+                                    </div>
+                                    <div class="colors-preview__item">
+                                        <div class="colors-preview__img"><img src="{% static 'img01.jpg' %}" alt=""></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <span class="line line-m25 _container"></span>
+
+            <div class="order-wires">
+                <div class="order-wires__content _container">
+
+                    <div class="order-wires__row">
+                        <div class="order-wires__component order-wires-component">
+                            <div class="order-wires-component__row">
+                                <div class="order-wires-component__item">
+                                    <div class="order-wires-component__head">
+                                        <p class="order-wires-component__name">2 х 0,75 мм</p>
+                                        <label class="order-wires-component__checkbox checkbox">
+                                            <input class="order-wires-component__checkbox-input" type="checkbox">
+                                            <span class="checkbox-switch"></span>
+                                        </label>
+                                    </div>
+                                    <div class="order-wires-component__num">
+                                        <div class="order-wires-component__remove">-</div>
+                                        <input type="number" class="order-wires-component__quantity" value="5">
+                                        <div class="order-wires-component__add">+</div>
+                                    </div>
+                                    <span class="line"></span>
+                                    <p class="order-wires-component__text">Освещение до 1,2кВт, 220V</p>
+                                </div>
+                                <div class="order-wires-component__item">
+                                    <div class="order-wires-component__head">
+                                        <p class="order-wires-component__name">2 х 0,75 мм</p>
+                                        <label class="order-wires-component__checkbox checkbox">
+                                            <input class="order-wires-component__checkbox-input" type="checkbox">
+                                            <span class="checkbox-switch"></span>
+                                        </label>
+                                    </div>
+                                    <div class="order-wires-component__num">
+                                        <div class="order-wires-component__remove">-</div>
+                                        <input type="number" class="order-wires-component__quantity" value="5">
+                                        <div class="order-wires-component__add">+</div>
+                                    </div>
+                                    <span class="line"></span>
+                                    <p class="order-wires-component__text">Освещение до 1,2кВт, 220V</p>
+                                </div>
+                                <div class="order-wires-component__item">
+                                    <div class="order-wires-component__head">
+                                        <p class="order-wires-component__name">2 х 0,75 мм</p>
+                                        <label class="order-wires-component__checkbox checkbox">
+                                            <input class="order-wires-component__checkbox-input" type="checkbox">
+                                            <span class="checkbox-switch"></span>
+                                        </label>
+                                    </div>
+                                    <div class="order-wires-component__num">
+                                        <div class="order-wires-component__remove">-</div>
+                                        <input type="number" class="order-wires-component__quantity" value="5">
+                                        <div class="order-wires-component__add">+</div>
+                                    </div>
+                                    <span class="line"></span>
+                                    <p class="order-wires-component__text">Освещение до 1,2кВт, 220V</p>
+                                </div>
+                                <div class="order-wires-component__item">
+                                    <div class="order-wires-component__head">
+                                        <p class="order-wires-component__name">2 х 0,75 мм</p>
+                                        <label class="order-wires-component__checkbox checkbox">
+                                            <input class="order-wires-component__checkbox-input" type="checkbox">
+                                            <span class="checkbox-switch"></span>
+                                        </label>
+                                    </div>
+                                    <div class="order-wires-component__num">
+                                        <div class="order-wires-component__remove">-</div>
+                                        <input type="number" class="order-wires-component__quantity" value="5">
+                                        <div class="order-wires-component__add">+</div>
+                                    </div>
+                                    <span class="line"></span>
+                                    <p class="order-wires-component__text">Освещение до 1,2кВт, 220V</p>
+                                </div>
+                                <div class="order-wires-component__item">
+                                    <div class="order-wires-component__head">
+                                        <p class="order-wires-component__name">2 х 0,75 мм</p>
+                                        <label class="order-wires-component__checkbox checkbox">
+                                            <input class="order-wires-component__checkbox-input" type="checkbox">
+                                            <span class="checkbox-switch"></span>
+                                        </label>
+                                    </div>
+                                    <div class="order-wires-component__num">
+                                        <div class="order-wires-component__remove">-</div>
+                                        <input type="number" class="order-wires-component__quantity" value="5">
+                                        <div class="order-wires-component__add">+</div>
+                                    </div>
+                                    <span class="line"></span>
+                                    <p class="order-wires-component__text">Освещение до 1,2кВт, 220V</p>
+                                </div>
+                                <div class="order-wires-component__item">
+                                    <div class="order-wires-component__head">
+                                        <p class="order-wires-component__name">2 х 0,75 мм</p>
+                                        <label class="order-wires-component__checkbox checkbox">
+                                            <input class="order-wires-component__checkbox-input" type="checkbox">
+                                            <span class="checkbox-switch"></span>
+                                        </label>
+                                    </div>
+                                    <div class="order-wires-component__num">
+                                        <div class="order-wires-component__remove">-</div>
+                                        <input type="number" class="order-wires-component__quantity" value="5">
+                                        <div class="order-wires-component__add">+</div>
+                                    </div>
+                                    <span class="line"></span>
+                                    <p class="order-wires-component__text">Освещение до 1,2кВт, 220V</p>
+                                </div>
+                                <div class="order-wires-component__item">
+                                    <div class="order-wires-component__head">
+                                        <p class="order-wires-component__name">2 х 0,75 мм</p>
+                                        <label class="order-wires-component__checkbox checkbox">
+                                            <input class="order-wires-component__checkbox-input" type="checkbox">
+                                            <span class="checkbox-switch"></span>
+                                        </label>
+                                    </div>
+                                    <div class="order-wires-component__num">
+                                        <div class="order-wires-component__remove">-</div>
+                                        <input type="number" class="order-wires-component__quantity" value="5">
+                                        <div class="order-wires-component__add">+</div>
+                                    </div>
+                                    <span class="line"></span>
+                                    <p class="order-wires-component__text">Освещение до 1,2кВт, 220V</p>
+                                </div>
+                                <div class="order-wires-component__item">
+                                    <div class="order-wires-component__head">
+                                        <p class="order-wires-component__name">2 х 0,75 мм</p>
+                                        <label class="order-wires-component__checkbox checkbox">
+                                            <input class="order-wires-component__checkbox-input" type="checkbox">
+                                            <span class="checkbox-switch"></span>
+                                        </label>
+                                    </div>
+                                    <div class="order-wires-component__num">
+                                        <div class="order-wires-component__remove">-</div>
+                                        <input type="number" class="order-wires-component__quantity" value="5">
+                                        <div class="order-wires-component__add">+</div>
+                                    </div>
+                                    <span class="line"></span>
+                                    <p class="order-wires-component__text">Освещение до 1,2кВт, 220V</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="order-wires__settings settings-order-wires">
+
+                            <div class="settings-order-wires__title">Дополнительные компоненты</div>
+                            <span class="line"></span>
+
+                            <div class="settings-order-wires__insulators insulators-settings-order-wires">
+                                <div class="insulators-settings-order-wires__title"><span>Добавить изоляторы?</span></div>
+                                <label class="insulators-settings-order-wires__checkbox checkbox">
+                                    <input class="insulators-settings-order-wires__checkbox-input" type="checkbox">
+                                    <span class="checkbox-switch"></span>
+                                </label>
+                                <div class="insulators-settings-order-wires__color-block">
+                                    <div class="insulators-settings-order-wires__selection">
+                                        <div class="insulators-settings-order-wires__checkmark">
+                                            <span class="insulators-settings-order-wires__numer">Пластик</span>
+                                            <span class="insulators-settings-order-wires__border _active"></span>
+                                        </div>
+                                        <div class="insulators-settings-order-wires__checkmark">
+                                            <span class="insulators-settings-order-wires__numer">Фарфор</span>
+                                            <span class="insulators-settings-order-wires__border"></span>
+                                        </div>
+                                    </div>
+                                    <div class="insulators-settings-order-wires__list">
+                                        <div class="insulators-settings-order-wires__colors _active">
+                                            <div class="insulators-settings-order-wires__item insulators-settings-order-wires-item">
+                                                <div class="insulators-settings-order-wires-item__img">
+                                                    <img src="{% static 'img01.jpg' %}" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="insulators-settings-order-wires__item insulators-settings-order-wires-item">
+                                                <div class="insulators-settings-order-wires-item__img">
+                                                    <img src="{% static 'img01.jpg' %}" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="insulators-settings-order-wires__item insulators-settings-order-wires-item">
+                                                <div class="insulators-settings-order-wires-item__img">
+                                                    <img src="{% static 'img01.jpg' %}" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="insulators-settings-order-wires__item insulators-settings-order-wires-item">
+                                                <div class="insulators-settings-order-wires-item__img">
+                                                    <img src="{% static 'img01.jpg' %}" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="insulators-settings-order-wires__colors">
+                                            <div class="insulators-settings-order-wires__item insulators-settings-order-wires-item">
+                                                <div class="insulators-settings-order-wires-item__img">
+                                                    <img src="{% static 'img01.jpg' %}" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <span class="line"></span>
+                            <div class="settings-order-wires__text">(Краткое описание)</div>
+                            <span class="line"></span>
+
+                            <div class="settings-order-wires__bushings bushings-settings-order-wires">
+                                <div class="bushings-settings-order-wires__title"><span>Добавить проходные втулки?</span></div>
+                                <label class="bushings-settings-order-wires__checkbox checkbox">
+                                    <input class="bushings-settings-order-wires__checkbox-input" type="checkbox">
+                                    <span class="checkbox-switch"></span>
+                                </label>
+
+                                <div class="bushings-settings-order-wires__color-block">
+
+                                    <div class="bushings-settings-order-wires__num">
+                                        <div class="bushings-settings-order-wires__remove">-</div>
+                                        <input type="number" class="bushings-settings-order-wires__quantity" value="5">
+                                        <div class="bushings-settings-order-wires__add">+</div>
+                                    </div>
+
+                                    <div class="bushings-settings-order-wires__colors">
+                                        <div class="bushings-settings-order-wires__item bushings-settings-order-wires-item">
+                                            <div class="bushings-settings-order-wires-item__img">
+                                                <img src="{% static 'img01.jpg' %}" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="bushings-settings-order-wires__item bushings-settings-order-wires-item">
+                                            <div class="bushings-settings-order-wires-item__img">
+                                                <img src="{% static 'img01.jpg' %}" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="bushings-settings-order-wires__item bushings-settings-order-wires-item">
+                                            <div class="bushings-settings-order-wires-item__img">
+                                                <img src="{% static 'img01.jpg' %}" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="bushings-settings-order-wires__item bushings-settings-order-wires-item">
+                                            <div class="bushings-settings-order-wires-item__img">
+                                                <img src="{% static 'img01.jpg' %}" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="bushings-settings-order-wires__item bushings-settings-order-wires-item">
+                                            <div class="bushings-settings-order-wires-item__img">
+                                                <img src="{% static 'img01.jpg' %}" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="bushings-settings-order-wires__item bushings-settings-order-wires-item">
+                                            <div class="bushings-settings-order-wires-item__img">
+                                                <img src="{% static 'img01.jpg' %}" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <span class="line"></span>
+                            <div class="settings-order-wires__text">(Краткое описание)</div>
+                            <span class="line"></span>
+                            
+                            <div class="settings-order-wires__explanations">Объем сопутствующих материалов рассчитан из нормативов расхода и может быть пересчитан</div>
+                            <span class="line"></span>
+                            <div class="settings-order-wires__sum">0 руб</div>
+                            <div class="settings-order-wires__buy-btn">Оформить заказ</div>
+                            <a href="/" class="settings-order-wires__other-btn">Другие обои</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <div class="popup-zoom off">
+        <div class="popup-zoom__body">
+            <div class="popup-zoom__img">
+                <img src="" alt="Закрыть">
+                <div class="popup-zoom__close"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup-form off">
+        <div class="popup-form__close"></div>
+        <div class="popup-form__content _container">
+            <div class="popup-form__details details-popup-form">
+                <div class="details-popup-form-head"><span>Провод декоративный</span></div>
+                <div class="details-popup-form-body">
+                    <div class="details-popup-form-body__img"><img src="{% static 'img01.jpg' %}" alt=""></div>
+                    <div class="details-popup-form-body__line"></div>
+                    <div class="details-popup-form-body__info">
+                    </div>
+                </div>
+                <div class="details-popup-form-footer"><span>Итого:</span><span class="details-popup-form-footer__total">19 213</span><span>руб.</span></div>
+            </div>
+            <form class="popup-form__person person-popup-form" name="mail" method="POST" action="/feedback.php">
+                <div class="person-popup-form__title">ДАННЫЕ ПОЛУЧАТЕЛЯ:</div>
+                <div class="person-popup-form__block-name person-popup-form__block">
+                    <span>Как к Вам обращаться?</span>
+                    <input name="name" class="person-popup-form__input-name" type="text" placeholder="Ф.И.О.">
+                </div>
+                <div class="person-popup-form__block-mail person-popup-form__block">
+                    <span>* Оставьте Email для связи</span>
+                    <input name="email" class="person-popup-form__input-email _req _email" type="text"
+                        placeholder="Email">
+                </div>
+                <div class="person-popup-form__block-tel person-popup-form__block">
+                    <span>* Телефон</span>
+                    <input name="tel" class="person-popup-form__input-tel" type="tel" placeholder="Телефон">
+                </div>
+                <div class="person-popup-form__block-com person-popup-form__block">
+                    <span>Комментарий</span>
+                    <textarea name="com" class="person-popup-form__textarea" name="com"
+                        placeholder="Комментарий"></textarea>
+                </div>
+            </form>
+            <div class="popup-form__btn-send">заказать!</div>
+        </div>
+    </div>
+    <script src="{% static 'main.js' %}"></script>
+</body>
+</html>
